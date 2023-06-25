@@ -9,7 +9,7 @@ import requests_cache
 
 DEFAULT_HOST = 'http://www.biomart.org'
 DEFAULT_PATH = '/biomart/martservice'
-DEFAULT_PORT = 8080
+DEFAULT_PORT = 5000
 DEFAULT_SCHEMA = 'default'
 
 requests_cache.install_cache('.pybiomart')
